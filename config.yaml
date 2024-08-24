@@ -17,19 +17,13 @@ settings:
 monitors:
   - id: bing
     name: BingAI
-    url: 'https://bing.xhustoj.eu.org/'
+    url: 'https://bing.luking.top/'
     method: GET
     expectStatus: 200
 
-  - id: img
-    name: 上传图片
-    url: 'https://img.luking.top/'
-    method: GET
-    expectStatus: 200
-
-  - id: pic
-    name: 图床
-    url: 'https://pic.luking.top/'
+  - id: chat
+    name: chatGPT镜像站
+    url: 'https://chat.luking.top/'
     method: GET
     expectStatus: 200
 
@@ -40,19 +34,25 @@ monitors:
     expectStatus: 200
 
   - id: git
-    name: github加速
+    name: github镜像站
     url: 'https://git.luking.top/'
+    method: GET
+    expectStatus: 200
+
+  - id: hot
+    name: 今日热点
+    url: 'https://hot.luking.top/'
+    method: GET
+    expectStatus: 200
+
+  - id: img
+    name: 上传图片
+    url: 'https://img.luking.top/'
     method: GET
     expectStatus: 200
 
   - id: proxy
     name: 反向代理
     url: 'https://proxy.luking.top/'
-    method: GET
-    expectStatus: 200
-
-  - id: status
-    name: luking服务状态站
-    url: 'https://status.luking.top/'
     method: GET
     expectStatus: 200
